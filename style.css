@@ -1,0 +1,27 @@
+/*Added linear gradient for multi color*/
+body{
+background: linear-gradient(lightyellow, yellow);
+}
+/*Width, height and border radius(50%) to make oval shape*/
+div {
+    width: 200px;
+	height: 100px;
+	background: blue;
+	 
+	border-radius:50%;
+    border:1px solid black;	
+}
+/*As per the req added spectific values*/
+div.align header{
+	font-size: 10px;
+	position: relative;
+    top:5%;
+    left:30px;
+    color:white;
+
+    height:144px;
+    width:70px;
+    padding:20px;
+    
+
+}
